@@ -1,5 +1,14 @@
 {
   "dependencies": {
-    "com.unity.package-manager-ui": "2.2.0"
-  }
+    "com.unity.render-pipelines.high-definition": "16.0.5"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
 }
