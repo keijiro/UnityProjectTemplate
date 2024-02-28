@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "16.0.5",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
+}
