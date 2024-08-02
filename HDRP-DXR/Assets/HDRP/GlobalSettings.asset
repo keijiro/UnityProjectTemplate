@@ -189,6 +189,7 @@ MonoBehaviour:
       - rid: 1923536434953977856
       - rid: 7423666372104683520
       - rid: 7423666372104683521
+      - rid: 5191210058239967232
     m_RuntimeSettings:
       m_List: []
   renderingLayerNames: []
@@ -782,11 +783,17 @@ MonoBehaviour:
         probeVolumeBlendStatesCS: {fileID: 7200000, guid: a3f7b8c99de28a94684cb1daebeccf5d, type: 3}
         probeVolumeUploadDataCS: {fileID: 7200000, guid: 0951de5992461754fa73650732c4954c, type: 3}
         probeVolumeUploadDataL2CS: {fileID: 7200000, guid: 6196f34ed825db14b81fb3eb0ea8d931, type: 3}
+    - rid: 5191210058239967232
+      type: {class: WaterSystemGlobalSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 1
+        m_EnableMaskAndCurrentWaterDecals: 0
     - rid: 7423666372104683520
       type: {class: WaterSystemRuntimeResources, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_WaterMaterial: {fileID: -876546973899608171, guid: 3fda5e465882bec4d8e64161b681806c, type: 3}
         m_WaterExclusionMaterial: {fileID: 2100000, guid: 1e520c84f7fd17c46af5586f6632155c, type: 2}
+        m_WaterDecalMaterial: {fileID: -876546973899608171, guid: 7e2c0d424490bfc4698c37245b8c63ed, type: 3}
         m_WaterSimulationCS: {fileID: 7200000, guid: 32ac7f445960a854595586a600c24034, type: 3}
         m_FourierTransformCS: {fileID: 7200000, guid: bc2ee21836a0b5147900ef35a6e1f508, type: 3}
         m_WaterEvaluationCS: {fileID: 7200000, guid: c24e765a2bbaace4d9a0ecec600e1967, type: 3}
@@ -794,10 +801,10 @@ MonoBehaviour:
         m_WaterLightingCS: {fileID: 7200000, guid: 05d00ad19f202ee4891fdaa90d6d1b23, type: 3}
         m_WaterLineCS: {fileID: 7200000, guid: 1e7e38362b5026d44ab4f3ff4a612026, type: 3}
         m_WaterCausticsPS: {fileID: 4800000, guid: 020d64d10886f754e91664d240248c13, type: 3}
-        m_WaterDeformationPS: {fileID: 4800000, guid: 575db5571f0ebfb439b332bf5b0a405b, type: 3}
+        m_WaterDecalPS: {fileID: 4800000, guid: cf863cbd7bbd44a43b414caed214ba29, type: 3}
         m_WaterDeformationCS: {fileID: 7200000, guid: 9b8063fa5834d4243bfca8c68a92d9f1, type: 3}
-        m_WaterFoamPS: {fileID: 4800000, guid: cf863cbd7bbd44a43b414caed214ba29, type: 3}
         m_WaterFoamCS: {fileID: 7200000, guid: 0d16d14b783e65f4d81dbcece2bd0ef9, type: 3}
+        m_WaterDecalMigrationShader: {fileID: -6465566751694194690, guid: 9f1661ed5b4d6ee4685ad5683b09a903, type: 3}
         m_FoamMask: {fileID: 2800000, guid: ca1d72d84c34dba4390eab4c86e62f62, type: 3}
     - rid: 7423666372104683521
       type: {class: VolumetricCloudsRuntimeResources, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
