@@ -589,7 +589,8 @@ MonoBehaviour:
   active: 1
   diffusionProfiles:
     m_OverrideState: 1
-    m_Value: []
+    m_Value:
+    - {fileID: 11400000, guid: 2b7005ba3a4d8474b8cdc34141ad766e, type: 2}
 --- !u!114 &-6314446211616666474
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1377,6 +1378,9 @@ MonoBehaviour:
   tileOpacityThreshold:
     m_OverrideState: 1
     m_Value: 1
+  writeDepthAlphaThreshold:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &-2610930810221038637
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2110,6 +2114,9 @@ MonoBehaviour:
   skyOcclusionIntensityMultiplier:
     m_OverrideState: 1
     m_Value: 1
+  worldOffset:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0, z: 0}
 --- !u!114 &-65439994920721599
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3048,6 +3055,9 @@ MonoBehaviour:
   skyOcclusionIntensityMultiplier:
     m_OverrideState: 0
     m_Value: 1
+  worldOffset:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
 --- !u!114 &2433466709170922954
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3088,6 +3098,9 @@ MonoBehaviour:
   cullingDistance:
     m_OverrideState: 1
     m_Value: 1000
+  minSolidAngle:
+    m_OverrideState: 0
+    m_Value: 4
 --- !u!114 &2537814149483458377
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3521,9 +3534,15 @@ MonoBehaviour:
   m_PhysicallyBased:
     m_OverrideState: 1
     m_Value: 0
+  m_AdaptiveSamplingWeight:
+    m_OverrideState: 1
+    m_Value: 0.75
   m_LimitManualRangeNearBlur:
     m_OverrideState: 1
     m_Value: 0
+  coCStabilization:
+    m_OverrideState: 1
+    m_Value: 1
 --- !u!114 &4981354747274665315
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -4095,6 +4114,9 @@ MonoBehaviour:
   tileOpacityThreshold:
     m_OverrideState: 1
     m_Value: 0.95
+  writeDepthAlphaThreshold:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &5315503232242033309
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -4768,6 +4790,9 @@ MonoBehaviour:
   cullingDistance:
     m_OverrideState: 1
     m_Value: 1000
+  minSolidAngle:
+    m_OverrideState: 1
+    m_Value: 4
 --- !u!114 &7182385854679382670
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5211,9 +5236,15 @@ MonoBehaviour:
   m_PhysicallyBased:
     m_OverrideState: 1
     m_Value: 0
+  m_AdaptiveSamplingWeight:
+    m_OverrideState: 0
+    m_Value: 0.75
   m_LimitManualRangeNearBlur:
     m_OverrideState: 1
     m_Value: 0
+  coCStabilization:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &8166794608821219769
 MonoBehaviour:
   m_ObjectHideFlags: 3
