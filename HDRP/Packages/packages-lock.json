@@ -145,6 +145,13 @@
         "com.unity.render-pipelines.core": "17.0.4"
       }
     },
+    "jp.keijiro.klutter-tools": {
+      "version": "2.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
     "com.unity.modules.animation": {
       "version": "1.0.0",
       "depth": 1,

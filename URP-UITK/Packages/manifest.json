@@ -2,7 +2,8 @@
   "dependencies": {
     "com.unity.inputsystem": "1.13.1",
     "com.unity.render-pipelines.universal": "17.0.4",
-    "com.unity.modules.uielements": "1.0.0"
+    "com.unity.modules.uielements": "1.0.0",
+    "jp.keijiro.klutter-tools": "2.1.0"
   },
   "scopedRegistries": [
     {
