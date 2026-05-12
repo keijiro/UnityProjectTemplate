@@ -1,9 +1,11 @@
 {
   "dependencies": {
-    "com.unity.inputsystem": "1.14.2",
-    "com.unity.render-pipelines.universal": "17.0.4",
-    "jp.keijiro.klutter-tools": "2.4.4",
-    "com.unity.modules.uielements": "1.0.0"
+    "com.unity.inputsystem": "1.19.0",
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "jp.keijiro.klutter-tools": "2.6.0",
+    "com.unity.modules.adaptiveperformance": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.vectorgraphics": "1.0.0"
   },
   "scopedRegistries": [
     {
