@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "com.unity.ai.assistant": "2.7.0-pre.3",
+    "com.unity.ai.inference": "2.6.1",
+    "com.unity.inputsystem": "1.19.0",
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "jp.keijiro.ai.assistant.extensions": "1.1.2",
+    "jp.keijiro.klutter-tools": "2.6.0",
+    "com.unity.modules.adaptiveperformance": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.vectorgraphics": "1.0.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
+}
