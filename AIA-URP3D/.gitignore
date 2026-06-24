@@ -21,3 +21,6 @@ Desktop.ini
 /*.apk
 /*.tgz
 /*_DoNotShip
+
+/.codex/config.toml
+/.mcp.json
