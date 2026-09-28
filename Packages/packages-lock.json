@@ -53,7 +53,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.pipeline": {
-      "version": "0.6.0-exp.1",
+      "version": "0.7.0-exp.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -115,7 +115,7 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.6.0",
-        "com.unity.searcher": "4.9.3",
+        "com.unity.searcher": "4.9.5",
         "com.unity.graph-authoring": "1.0.0"
       }
     },
