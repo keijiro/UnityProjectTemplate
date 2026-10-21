@@ -854,7 +854,24 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   webProgressiveAssetLoading: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: ENABLE_RUNTIME_PIPELINE_DEV
+    EmbeddedLinux: ENABLE_RUNTIME_PIPELINE_DEV
+    GameCoreScarlett: ENABLE_RUNTIME_PIPELINE_DEV
+    GameCoreXboxOne: ENABLE_RUNTIME_PIPELINE_DEV
+    Kepler: ENABLE_RUNTIME_PIPELINE_DEV
+    LinuxHeadlessSimulation: ENABLE_RUNTIME_PIPELINE_DEV
+    Nintendo Switch: ENABLE_RUNTIME_PIPELINE_DEV
+    Nintendo Switch 2: ENABLE_RUNTIME_PIPELINE_DEV
+    PS4: ENABLE_RUNTIME_PIPELINE_DEV
+    PS5: ENABLE_RUNTIME_PIPELINE_DEV
+    QNX: ENABLE_RUNTIME_PIPELINE_DEV
+    Server: ENABLE_RUNTIME_PIPELINE_DEV
+    Standalone: ENABLE_RUNTIME_PIPELINE_DEV
+    VisionOS: ENABLE_RUNTIME_PIPELINE_DEV
+    WebGL: ENABLE_RUNTIME_PIPELINE_DEV
+    XboxOne: ENABLE_RUNTIME_PIPELINE_DEV
+    tvOS: ENABLE_RUNTIME_PIPELINE_DEV
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
